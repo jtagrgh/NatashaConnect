@@ -7,20 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48AB9E162CC2BFE400B9E375 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB9E152CC2BFE400B9E375 /* ProfileView.swift */; };
+		48AB9E182CC30C9400B9E375 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB9E172CC30C9400B9E375 /* Constants.swift */; };
+		48AB9E1A2CC30D4600B9E375 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB9E192CC30D4600B9E375 /* InputTextView.swift */; };
+		48AB9E1C2CC3159700B9E375 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB9E1B2CC3159600B9E375 /* IntroView.swift */; };
+		48AB9E1E2CC3175900B9E375 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB9E1D2CC3175900B9E375 /* SignUpView.swift */; };
+		48B83BB32CC157680064F4D5 /* CardGroupBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BB22CC157680064F4D5 /* CardGroupBoxStyle.swift */; };
+		48B83BBB2CC194F50064F4D5 /* StringToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BBA2CC194F50064F4D5 /* StringToken.swift */; };
+		48B83BBD2CC1A0670064F4D5 /* EventsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BBC2CC1A0670064F4D5 /* EventsModel.swift */; };
+		48B83BBF2CC1A1A50064F4D5 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BBE2CC1A1A50064F4D5 /* EventsViewModel.swift */; };
+		48B83BC32CC1BDF20064F4D5 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BC22CC1BDF20064F4D5 /* EventDetailView.swift */; };
+		48B83BC52CC1C1A30064F4D5 /* EventDetailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BC42CC1C1A30064F4D5 /* EventDetailItemView.swift */; };
+		48B83BC72CC1C51D0064F4D5 /* FilterBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BC62CC1C51D0064F4D5 /* FilterBoxView.swift */; };
+		48B83BC92CC1C7440064F4D5 /* EventProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BC82CC1C7440064F4D5 /* EventProfileView.swift */; };
+		48B83BCB2CC1CEC40064F4D5 /* ProfileAndNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BCA2CC1CEC40064F4D5 /* ProfileAndNameView.swift */; };
+		48B83BCD2CC1CF410064F4D5 /* AttendeeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BCC2CC1CF410064F4D5 /* AttendeeCardView.swift */; };
+		48B83BCF2CC2074D0064F4D5 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BCE2CC2074D0064F4D5 /* MessagesView.swift */; };
+		48B83BD12CC207710064F4D5 /* MessageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83BD02CC207700064F4D5 /* MessageCardView.swift */; };
+		48D5AF7E2CC2172200DF17E6 /* MessageCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D5AF7D2CC2172200DF17E6 /* MessageCardModel.swift */; };
 		48F6BF412CC044BE00E0C4BD /* NatashaConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF402CC044BE00E0C4BD /* NatashaConnectApp.swift */; };
 		48F6BF432CC044BE00E0C4BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF422CC044BE00E0C4BD /* ContentView.swift */; };
 		48F6BF452CC044BE00E0C4BD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF442CC044BE00E0C4BD /* Item.swift */; };
 		48F6BF472CC044C000E0C4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F6BF462CC044C000E0C4BD /* Assets.xcassets */; };
 		48F6BF4A2CC044C000E0C4BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F6BF492CC044C000E0C4BD /* Preview Assets.xcassets */; };
+		48F6BF512CC044E300E0C4BD /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF502CC044E300E0C4BD /* SignInView.swift */; };
+		48F6BF532CC04AEA00E0C4BD /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF522CC04AEA00E0C4BD /* TestView.swift */; };
+		48F6BF552CC0594F00E0C4BD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF542CC0594F00E0C4BD /* MainView.swift */; };
+		48F6BF572CC05DAD00E0C4BD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF562CC05DAD00E0C4BD /* HomeView.swift */; };
+		48F6BF592CC0626700E0C4BD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF582CC0626700E0C4BD /* Event.swift */; };
+		48F6BF5B2CC064E600E0C4BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF5A2CC064E600E0C4BD /* User.swift */; };
+		48F6BF5D2CC065C600E0C4BD /* UserItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF5C2CC065C600E0C4BD /* UserItemView.swift */; };
+		48F6BF5F2CC0661F00E0C4BD /* EventItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6BF5E2CC0661F00E0C4BD /* EventItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48AB9E152CC2BFE400B9E375 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		48AB9E172CC30C9400B9E375 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		48AB9E192CC30D4600B9E375 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
+		48AB9E1B2CC3159600B9E375 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		48AB9E1D2CC3175900B9E375 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		48B83BB22CC157680064F4D5 /* CardGroupBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGroupBoxStyle.swift; sourceTree = "<group>"; };
+		48B83BBA2CC194F50064F4D5 /* StringToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToken.swift; sourceTree = "<group>"; };
+		48B83BBC2CC1A0670064F4D5 /* EventsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsModel.swift; sourceTree = "<group>"; };
+		48B83BBE2CC1A1A50064F4D5 /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		48B83BC22CC1BDF20064F4D5 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		48B83BC42CC1C1A30064F4D5 /* EventDetailItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailItemView.swift; sourceTree = "<group>"; };
+		48B83BC62CC1C51D0064F4D5 /* FilterBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBoxView.swift; sourceTree = "<group>"; };
+		48B83BC82CC1C7440064F4D5 /* EventProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventProfileView.swift; sourceTree = "<group>"; };
+		48B83BCA2CC1CEC40064F4D5 /* ProfileAndNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndNameView.swift; sourceTree = "<group>"; };
+		48B83BCC2CC1CF410064F4D5 /* AttendeeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeCardView.swift; sourceTree = "<group>"; };
+		48B83BCE2CC2074D0064F4D5 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		48B83BD02CC207700064F4D5 /* MessageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCardView.swift; sourceTree = "<group>"; };
+		48D5AF7D2CC2172200DF17E6 /* MessageCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCardModel.swift; sourceTree = "<group>"; };
 		48F6BF3D2CC044BE00E0C4BD /* NatashaConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatashaConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F6BF402CC044BE00E0C4BD /* NatashaConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatashaConnectApp.swift; sourceTree = "<group>"; };
 		48F6BF422CC044BE00E0C4BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48F6BF442CC044BE00E0C4BD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		48F6BF462CC044C000E0C4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F6BF492CC044C000E0C4BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48F6BF502CC044E300E0C4BD /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		48F6BF522CC04AEA00E0C4BD /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		48F6BF542CC0594F00E0C4BD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		48F6BF562CC05DAD00E0C4BD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		48F6BF582CC0626700E0C4BD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		48F6BF5A2CC064E600E0C4BD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		48F6BF5C2CC065C600E0C4BD /* UserItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemView.swift; sourceTree = "<group>"; };
+		48F6BF5E2CC0661F00E0C4BD /* EventItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +89,14 @@
 		48F6BF342CC044BE00E0C4BD = {
 			isa = PBXGroup;
 			children = (
+				48F6BF5E2CC0661F00E0C4BD /* EventItemView.swift */,
+				48B83BC62CC1C51D0064F4D5 /* FilterBoxView.swift */,
+				48B83BC42CC1C1A30064F4D5 /* EventDetailItemView.swift */,
+				48B83BC22CC1BDF20064F4D5 /* EventDetailView.swift */,
+				48B83BC82CC1C7440064F4D5 /* EventProfileView.swift */,
+				48B83BCC2CC1CF410064F4D5 /* AttendeeCardView.swift */,
+				48B83BCA2CC1CEC40064F4D5 /* ProfileAndNameView.swift */,
+				48B83BB22CC157680064F4D5 /* CardGroupBoxStyle.swift */,
 				48F6BF3F2CC044BE00E0C4BD /* NatashaConnect */,
 				48F6BF3E2CC044BE00E0C4BD /* Products */,
 			);
@@ -55,6 +115,24 @@
 			children = (
 				48F6BF402CC044BE00E0C4BD /* NatashaConnectApp.swift */,
 				48F6BF422CC044BE00E0C4BD /* ContentView.swift */,
+				48F6BF502CC044E300E0C4BD /* SignInView.swift */,
+				48AB9E1B2CC3159600B9E375 /* IntroView.swift */,
+				48AB9E1D2CC3175900B9E375 /* SignUpView.swift */,
+				48AB9E192CC30D4600B9E375 /* InputTextView.swift */,
+				48AB9E172CC30C9400B9E375 /* Constants.swift */,
+				48F6BF542CC0594F00E0C4BD /* MainView.swift */,
+				48AB9E152CC2BFE400B9E375 /* ProfileView.swift */,
+				48B83BD02CC207700064F4D5 /* MessageCardView.swift */,
+				48D5AF7D2CC2172200DF17E6 /* MessageCardModel.swift */,
+				48B83BCE2CC2074D0064F4D5 /* MessagesView.swift */,
+				48F6BF562CC05DAD00E0C4BD /* HomeView.swift */,
+				48B83BBC2CC1A0670064F4D5 /* EventsModel.swift */,
+				48B83BBE2CC1A1A50064F4D5 /* EventsViewModel.swift */,
+				48B83BBA2CC194F50064F4D5 /* StringToken.swift */,
+				48F6BF582CC0626700E0C4BD /* Event.swift */,
+				48F6BF5A2CC064E600E0C4BD /* User.swift */,
+				48F6BF5C2CC065C600E0C4BD /* UserItemView.swift */,
+				48F6BF522CC04AEA00E0C4BD /* TestView.swift */,
 				48F6BF442CC044BE00E0C4BD /* Item.swift */,
 				48F6BF462CC044C000E0C4BD /* Assets.xcassets */,
 				48F6BF482CC044C000E0C4BD /* Preview Content */,
@@ -140,8 +218,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B83BC32CC1BDF20064F4D5 /* EventDetailView.swift in Sources */,
+				48D5AF7E2CC2172200DF17E6 /* MessageCardModel.swift in Sources */,
+				48B83BBF2CC1A1A50064F4D5 /* EventsViewModel.swift in Sources */,
+				48F6BF592CC0626700E0C4BD /* Event.swift in Sources */,
+				48B83BC92CC1C7440064F4D5 /* EventProfileView.swift in Sources */,
 				48F6BF432CC044BE00E0C4BD /* ContentView.swift in Sources */,
+				48B83BBD2CC1A0670064F4D5 /* EventsModel.swift in Sources */,
+				48AB9E182CC30C9400B9E375 /* Constants.swift in Sources */,
+				48AB9E162CC2BFE400B9E375 /* ProfileView.swift in Sources */,
+				48F6BF572CC05DAD00E0C4BD /* HomeView.swift in Sources */,
+				48B83BCB2CC1CEC40064F4D5 /* ProfileAndNameView.swift in Sources */,
+				48B83BB32CC157680064F4D5 /* CardGroupBoxStyle.swift in Sources */,
+				48F6BF532CC04AEA00E0C4BD /* TestView.swift in Sources */,
+				48F6BF5D2CC065C600E0C4BD /* UserItemView.swift in Sources */,
+				48F6BF5F2CC0661F00E0C4BD /* EventItemView.swift in Sources */,
+				48AB9E1A2CC30D4600B9E375 /* InputTextView.swift in Sources */,
+				48B83BC72CC1C51D0064F4D5 /* FilterBoxView.swift in Sources */,
+				48B83BC52CC1C1A30064F4D5 /* EventDetailItemView.swift in Sources */,
 				48F6BF452CC044BE00E0C4BD /* Item.swift in Sources */,
+				48F6BF5B2CC064E600E0C4BD /* User.swift in Sources */,
+				48F6BF552CC0594F00E0C4BD /* MainView.swift in Sources */,
+				48AB9E1C2CC3159700B9E375 /* IntroView.swift in Sources */,
+				48F6BF512CC044E300E0C4BD /* SignInView.swift in Sources */,
+				48B83BD12CC207710064F4D5 /* MessageCardView.swift in Sources */,
+				48B83BCF2CC2074D0064F4D5 /* MessagesView.swift in Sources */,
+				48B83BBB2CC194F50064F4D5 /* StringToken.swift in Sources */,
+				48AB9E1E2CC3175900B9E375 /* SignUpView.swift in Sources */,
+				48B83BCD2CC1CF410064F4D5 /* AttendeeCardView.swift in Sources */,
 				48F6BF412CC044BE00E0C4BD /* NatashaConnectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
